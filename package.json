@@ -1,0 +1,19 @@
+{
+  "name": "thugsvg",
+  "version": "0.1.0",
+  "description": "Replace your linked SVG files for the inlined real deal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Francisco Pinzon",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.1.0",
+    "sizzle": "^2.2.0",
+    "tape": "^4.2.0"
+  }
+}
