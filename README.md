@@ -1,5 +1,8 @@
 #THUG SVG
 
+### Check this repo instead, they did all the work already: https://github.com/jonnyhaynes/inline-svg
+
+
 Goes through the DOM fetching the linked svg files, and copying them inline, so you can manipulate them with js and css.
 
 Be careful about what you link. This thug will import everything verbatim.
