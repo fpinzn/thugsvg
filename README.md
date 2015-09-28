@@ -8,19 +8,19 @@ Wow, much thug. So danger. Very power.
 
 ##Installation
 
-  npm install thugsvg
+    npm install thugsvg
 
 ##Usage
 
-  ### thugsvg([selector,] [cb(element)])
+    thugsvg([selector,] [cb(element)])
 
 If you want to do it with every svg currently present in your DOM
 
-  thugsvg()
+    thugsvg()
 
 If you want to do it for a specific selector
 
-  thugsvg(".myClassSelector")
+    thugsvg(".myClassSelector")
 
 The callback will receive the dom element that was replaced as a parameter.
 
@@ -33,4 +33,4 @@ It seemed to me this was the best solution.
 ##Security Concerns
 
 This way of importing SVGs probably opens the path to security vulnerabilities in the form of arbitrary code injection.
-Check your SVGs before trusting them. Or not, if you are into that.
+Check your SVGs before trusting them. Or not, if you are into that 💀.
